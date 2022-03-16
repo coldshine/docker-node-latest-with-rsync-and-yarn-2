@@ -5,7 +5,5 @@
 ## Base Docker image
 * [library/node](https://hub.docker.com/r/library/node/)
 
-lts node.js 
+NodeJS v16
 Pre-installed rsync.
-
-I use it for build, minification and sync my projects to remote host.
