@@ -1,7 +1,6 @@
-FROM node:latest
+FROM node:16
 
 MAINTAINER coldshine "ds@notagency.ru"
 
 RUN apt-get update && \
-    apt-get -y install rsync && \
-    yarn set version berry
+    apt-get -y install rsync
